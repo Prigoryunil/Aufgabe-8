@@ -1,0 +1,12 @@
+def kbig(nums, k):
+  while k > 1:
+    k -=1
+    m = max(nums)
+    i = nums.index(m)
+    del nums[i]
+  print(max(nums))
+  
+  
+  
+  
+  
